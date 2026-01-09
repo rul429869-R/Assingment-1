@@ -129,3 +129,43 @@ section .hero  {
     font-size: 24px;
     padding: 16px auto;
 }
+
+.light-main{
+    max-width: 1360px;
+    max-height: 600px;
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+   
+}
+
+.pera{
+     margin: 0 auto;
+   text-align: left;
+}
+.pera h1{
+    color: #469165;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 16px;
+}
+
+.pera h3{
+    color: #001931;
+    font-size: 48px;
+    max-width: 600px;
+    padding-bottom: 16px;
+}
+
+.pera p{
+    max-width: 700px;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.pera ul li{
+    color: #001931;
+    font-size: 16px;
+}
+
