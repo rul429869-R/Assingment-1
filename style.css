@@ -22,6 +22,7 @@ header{
     margin-bottom:18px;
     padding: 12px 18px ;
     border-radius: 5px;
+    padding-top: 32ps;
 }
 .btn{
     background-color: #469165;
@@ -30,6 +31,7 @@ header{
     border-radius: 5px;
     margin-bottom: 18px;
     margin-right: 16px;
+
 }
 .btn:hover{
     background-color: darkgreen;
@@ -66,7 +68,7 @@ nav .manu a{
     margin-bottom: 16px;
     padding: 16px auto;
 }
-section{
+.benner{
     background-image: url(image/hero-bg.png);
     background-repeat: no-repeat;
    height: 674px;
@@ -74,7 +76,7 @@ section{
    
 }
 
-section .hero {
+section .hero  {
     padding-top: 70px;
     width: 85%;
     max: width 1360px; ;
@@ -86,11 +88,44 @@ section .hero {
     color: #FFFFFF ;
     font-size: 72px;
     padding: 16px;
+   
 }
 
-.hero p{
-    font-size: 18px;
-    margin-bottom: 36px;
-    color: #FFFFFF;
+#note{
+  padding-top: 48px;width: 85%;
+    max: width 1360px; ;
+   margin: 0 auto;
+   text-align: center;
 }
 
+#note .note-head h2{
+    font-size: 48px;
+    color: #001931;
+    padding-bottom: 16px;
+}
+#note .note-head p{
+    font-size: 16px;
+    color: #627382;
+    padding-bottom: 44px;
+}
+
+#note .note-card .img{
+    max-block-size: 60px;
+}
+#note .note-body{
+    display: flex;
+    gap: 24px;
+}
+
+.note-body .note-card{
+    padding: 24px;
+    max-width: 322px;
+    box-shadow: 0 0 8px 0 #0000002a;
+ 
+}
+
+.note-card h3{
+    color: #001931;
+    font-size: 24px;
+    padding: 16px auto;
+}
