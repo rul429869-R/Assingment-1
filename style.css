@@ -15,11 +15,21 @@ header{
 }
 /*shear code*/
 
+.Btn{
+    background: transparent;
+    color: white;
+    border: 1px solid;
+    margin-bottom:18px;
+    padding: 12px 18px ;
+    border-radius: 5px;
+}
 .btn{
     background-color: #469165;
     border: none;
     padding: 12px 18px;
     border-radius: 5px;
+    margin-bottom: 18px;
+    margin-right: 16px;
 }
 .btn:hover{
     background-color: darkgreen;
@@ -56,3 +66,31 @@ nav .manu a{
     margin-bottom: 16px;
     padding: 16px auto;
 }
+section{
+    background-image: url(image/hero-bg.png);
+    background-repeat: no-repeat;
+   height: 674px;
+   margin: 0;
+   
+}
+
+section .hero {
+    padding-top: 70px;
+    width: 85%;
+    max: width 1360px; ;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.hero h2 {
+    color: #FFFFFF ;
+    font-size: 72px;
+    padding: 16px;
+}
+
+.hero p{
+    font-size: 18px;
+    margin-bottom: 36px;
+    color: #FFFFFF;
+}
+
