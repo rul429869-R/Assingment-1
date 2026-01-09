@@ -196,3 +196,33 @@ section .hero  {
     padding-bottom: 24px;
     font-weight: 200;
 }
+
+.foot{
+    padding: 120px;
+    background-color: #001931;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-pic{
+    width: 139px;
+    height: 60px;
+}
+
+.social h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight:normal;
+}
+
+.copy-right{
+     background-color: #001931;
+     font-size: 16px;
+     text-align: center;
+     padding-bottom: 24px;
+     padding-top: 16px;
+     border-width: 1360px;
+     border-top: 1.5px solid #000000;
+     color: #FAFAFA;
+     align-items: center;
+}
