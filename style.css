@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+}
+/*shear code*/
+
+.btn{
+    background-color: #469165;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+/*main code*/
+
+nav{
+    width: 85%;
+    max-width: 1360;
+    margin: 0 auto;
+   
+}
+
+nav {
+     display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-pic{
+    width: 139px 60px;
+    margin-bottom: 16px;
+}
+
+nav .manu{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+nav .manu a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 16px;
+    padding: 16px auto;
+}
