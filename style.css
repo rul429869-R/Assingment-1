@@ -169,3 +169,30 @@ section .hero  {
     font-size: 16px;
 }
 
+.think{
+    padding-bottom: 120px;
+}
+
+.think .tnk{
+    width: 85%;
+    max: width 1360px; ;
+    height: 384px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: #F7F6F2;
+   padding: 80px 40px ;
+}
+
+.tnk h3{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.tnk h1{
+    color: #627382;
+    font-size: 18px;
+    padding-bottom: 24px;
+    font-weight: 200;
+}
