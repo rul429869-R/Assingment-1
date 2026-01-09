@@ -31,6 +31,7 @@ header{
     border-radius: 5px;
     margin-bottom: 18px;
     margin-right: 16px;
+    color: white;
 
 }
 .btn:hover{
@@ -225,4 +226,10 @@ section .hero  {
      border-top: 1.5px solid #000000;
      color: #FAFAFA;
      align-items: center;
+}
+
+.foot .social .butt{
+    gap: 16px;
+    border-radius: 50%;
+    border: none;
 }
